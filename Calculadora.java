@@ -10,4 +10,8 @@ public class Calculadora {
     public int suma() {
         return numero1 + numero2;
     }
+
+    public int resta() {
+        return numero1 - numero2;
+    }
 }
