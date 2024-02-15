@@ -14,4 +14,14 @@ public class Calculadora {
     public int multiplicar() {
         return numero1 * numero2;
     }
+
+    public int dividir() {
+        if (numero2 != 0) {
+            return numero1 / numero2;
+        } else {
+            System.out.println("No se puede dividir por cero.");
+            return -1;
+        }
+    }
+    
 }
